@@ -14,7 +14,6 @@ reversString("Greetings from Earth") should return ("htraE morf sgniteerG")
 
 
 
-
 function reverseSting(str) {
 // Step 1. Use the split() method to return a new array
     let splitString = str.split("") 
@@ -31,9 +30,19 @@ function reverseSting(str) {
     return joinArray
 }
 
+
+
+
+
+
+
+
 function reverseStringEfficient(str) {
     return str.split("").reverse().join("");
 }
+
+
+
 
 
 
@@ -56,6 +65,11 @@ function reverseStringEfficient(str) {
 // Step 3. Return the reversed string
     return newString
  }
+
+
+
+
+
 
 
 
@@ -92,6 +106,19 @@ function reverseStringWithRecursion(str) {
 function reverseStringRecursionTurnery() {
     return (str === "" ? "" : reverseStringRecursionTurnery(str.substr(1) + str.charAt(0)) )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
