@@ -72,8 +72,7 @@ function reverseStringEfficient(str) {
 
 
 
-
-
+ 
 
 // recursion, function calls itself until it is stopped by base case
 //if (str === "") {// base case/stopping condition - condition that stops recursion
@@ -106,13 +105,6 @@ function reverseStringWithRecursion(str) {
 function reverseStringRecursionTurnery() {
     return (str === "" ? "" : reverseStringRecursionTurnery(str.substr(1) + str.charAt(0)) )
 }
-
-
-
-
-
-
-
 
 
 
